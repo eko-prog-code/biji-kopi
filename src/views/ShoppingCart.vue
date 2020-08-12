@@ -211,7 +211,7 @@ data() {
 
       axios
         .post(
-          "https://belanja-bulanan.my.id/api/checkout",
+          "https://bijikopi.belanja-bulanan.my.id/api/checkout",
           checkoutData
         )
         .then(() => this.$router.push("success"))
