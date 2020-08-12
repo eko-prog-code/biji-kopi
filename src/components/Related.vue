@@ -87,7 +87,7 @@ export default {
   },
   mounted() {
     axios
-      .get("https://belanja-bulanan.my.id/api/products")
+      .get("https://bijikopi.belanja-bulanan.my.id/api/products")
       .then((res) => (this.products = res.data.data.data))
       // eslint-disable-next-line no-console
       .catch((err) => console.log(err));
