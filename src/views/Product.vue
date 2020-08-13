@@ -132,7 +132,7 @@ export default {
       }
     }
     axios
-      .get("https://belanja-bulanan.my.id/api/products", {
+      .get("https://bijikopi.belanja-bulanan.my.id/api/products", {
         params: {
           id: this.$route.params.id,
         },

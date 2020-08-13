@@ -45,7 +45,7 @@
                           <h5>{{ keranjang.name }}</h5>
                         </td>
                         <td class="p-price first-row">Rp{{ keranjang.price }}</td>
-                        <td @click="removeItem(keranjangUser.id)" class="delete-item">
+                        <td @click="removeItem(keranjang.id)" class="delete-item">
                           <a href="#">
                             <i class="material-icons">close</i>
                           </a>
@@ -121,7 +121,7 @@
                     </li>
                     <li class="subtotal mt-3">
                       Pajak
-                      <span>10% Rp{{ ditambahPajak }}.00</span>
+                      <span>5% Rp{{ ditambahPajak }}.00</span>
                     </li>
                     <li class="subtotal mt-3">
                       Total Biaya
@@ -177,19 +177,22 @@ data() {
     };
   },
   methods: {
-    removeItem(idx) {
-      //cari tau id dari si item yang akan di hapus
-      let keranjangUserStorage = JSON.parse(localStorage.getItem("keranjangUser"));
-      let itemKeranjangUserStorage = keranjangUserStorage.map(itemKeranjangUserStorage => itemKeranjangUserStorage.id);
-
-      //cocockan idx item dengan id yang ada di storage
-      let index =itemKeranjangUserStorage.findIndex(id => id ==idx);
+     removeItem(xx) {
+      // this.keranjangUser.splice(index, 1);
+      // const parsed = JSON.stringify(this.keranjangUser);
+      // localStorage.setItem("keranjangUser", parsed);
+      // window.location.reload();
+      let faveGifs = JSON.parse(localStorage.getItem("keranjangUser"));
+      let faveGif = faveGifs.map(faveGif => faveGif.id);
+      let index = faveGif.findIndex(id => id == xx);
       this.keranjangUser.splice(index, 1);
-
       const parsed = JSON.stringify(this.keranjangUser);
       localStorage.setItem("keranjangUser", parsed);
       window.location.reload();
+      // eslint-disable-next-line no-console
+      console.log(index);
     },
+    
     // fungsi mengirim data ke API
     checkout() {
       let productIds = this.keranjangUser.map(function(product) {
@@ -208,7 +211,7 @@ data() {
 
       axios
         .post(
-          "https://belanja-bulanan.my.id/api/checkout",
+          "https://bijikopi.belanja-bulanan.my.id/api/checkout",
           checkoutData
         )
         .then(() => this.$router.push("success"))
@@ -232,7 +235,7 @@ data() {
       }, 0);
     },
     ditambahPajak() {
-      return (this.totalHarga * 10) / 100;
+      return (this.totalHarga * 5) / 100;
     },
     totalBiaya() {
       return this.totalHarga + this.ditambahPajak;
