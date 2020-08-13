@@ -121,7 +121,7 @@
                     </li>
                     <li class="subtotal mt-3">
                       Pajak
-                      <span>10% Rp{{ ditambahPajak }}.00</span>
+                      <span>5% Rp{{ ditambahPajak }}.00</span>
                     </li>
                     <li class="subtotal mt-3">
                       Total Biaya
@@ -235,7 +235,7 @@ data() {
       }, 0);
     },
     ditambahPajak() {
-      return (this.totalHarga * 10) / 100;
+      return (this.totalHarga * 5) / 100;
     },
     totalBiaya() {
       return this.totalHarga + this.ditambahPajak;
