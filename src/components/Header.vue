@@ -6,7 +6,7 @@
         <div class="container">
           <div class="ht-left">
             <div class="mail-service">
-              <i class=" fa fa-envelope"></i> biji_kopi@yahoo.com
+              <i class=" fa fa-envelope"></i> kopi_gesing@yahoo.com
             </div>
             <div class="phone-service">
               <i class=" fa fa-phone"></i> +62895600394345

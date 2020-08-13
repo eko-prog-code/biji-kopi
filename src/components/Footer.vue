@@ -12,7 +12,7 @@
                         <ul>
                             <li>Address: Griya Budiman Asri Blok H1, No.25 Cibalongsari Klari Karawang</li>
                             <li>Phone: +62895600394345</li>
-                            <li>Email: biji_kopi@yahoo.com</li>
+                            <li>Email: kopi_gesing@yahoo.com</li>
                         </ul>
                         <div class="footer-social">
                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -52,7 +52,7 @@
                     <div class="col-lg-12">
                         <div class="copyright-text">
                             Copyright &copy;2020
-                            All rights reserved | Biji Kopi
+                            All rights reserved | kopi gesing
                         </div>
                     </div>
                 </div>
