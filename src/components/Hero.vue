@@ -10,7 +10,7 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-5">
-                <span>Biji Kopi</span>
+                <span>Kopi Gesing</span>
                 <h1>E-Commerce Penyedia biji dan produk kopi</h1>
                 <p>
                   Biji Kopi dari Desa Gesing (Kualitas kopi no.1 Pemenang kompetisi di Indonesia)
@@ -27,7 +27,7 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-5">
-                <span>Biji Kopi</span>
+                <span>Kopi Gesing</span>
                 <h1>Pusat pemasok Produk Kopi</h1>
                 <p>
                   Jaringan bisnis Kopi di Cafe & Industri Kuliner.
@@ -44,7 +44,7 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-5">
-                <span>Biji Kopi</span>
+                <span>Kopi Gesing</span>
                 <h1>We're Smart Cofee</h1>
                 <p>
                   Smart Coffe: (Digital Smart Shopping All About Coffe)
