@@ -129,11 +129,11 @@
                     </li>
                     <li class="subtotal mt-3">
                       Bank Transfer
-                      <span>May Bank</span>
+                      <span>BNI</span>
                     </li>
                     <li class="subtotal mt-3">
                       No. Rekening
-                      <span>11 284 397 36</span>
+                      <span>0983620094</span>
                     </li>
                     <li class="subtotal mt-3">
                       Nama Penerima
