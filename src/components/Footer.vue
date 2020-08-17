@@ -10,7 +10,7 @@
                             <a href="#"><img src="img/logo_utama.png" alt="" /></a>
                         </div>
                         <ul>
-                            <li>Address: Griya Budiman Asri Blok H1, No.25 Cibalongsari Klari Karawang</li>
+                            <li>Kantor Pemasaran: Griya Budiman Asri Blok H1, No.25 Cibalongsari Klari Karawang</li>
                             <li>Phone: +62895600394345</li>
                             <li>Email: kopi_gesing@yahoo.com</li>
                         </ul>
